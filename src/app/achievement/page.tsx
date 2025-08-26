@@ -1,6 +1,6 @@
-import PortfolioSection from "../components/PortfolioSection";
-import ExperienceSection from "../components/ExperienceSection";
-import TestimonialsSection from "../components/TestimonialsSection";
+import PortfolioSection from "../../components/PortfolioSection";
+import ExperienceSection from "../../components/ExperienceSection";
+import TestimonialsSection from "../../components/TestimonialsSection";
 
 export default function PortfolioPage() {
   return (
