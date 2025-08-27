@@ -20,8 +20,8 @@ export default function RootLayout({
     <html lang="en">
       <body className="bg-gray-100 text-gray-900 flex flex-col max-w-full">
         <Navbar />
-        <main className="container mx-auto p-4 flex-grow">{children}</main>
-        <Footer />
+        <main className="container mx-auto flex-grow">{children}</main>
+        {/* <Footer /> */}
       </body>
     </html>
   );
