@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function PortfolioSection() {
   return (
@@ -41,6 +42,15 @@ export default function PortfolioSection() {
           </p>
         </div>
 
+        {/* Button linking to project */}
+        <Link
+          href="https://company-profile-ocbc.vercel.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex items-center justify-center rounded-md bg-green-600 px-4 py-2 text-white text-sm font-medium shadow hover:bg-green-700 transition"
+        >
+          View Project
+        </Link>
         <Image
           src="/ocbc-project.png"
           alt="Banking Platform OCBC"
