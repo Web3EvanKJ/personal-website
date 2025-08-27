@@ -60,6 +60,7 @@ export default function HomePage() {
               alt="Crayon Sinchan"
               width={350}
               height={350}
+              priority
               className="rounded-full object-cover w-48 h-48 md:w-80 md:h-80"
               initial={{ opacity: 0, scale: 0 }}
               animate={{ opacity: 1, scale: 1 }}
