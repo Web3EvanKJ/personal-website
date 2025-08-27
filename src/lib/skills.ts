@@ -1,8 +1,8 @@
 export const frontendSkills = [
-  { name: "JavaScript", img: "/javascript.jpg" },
   { name: "TypeScript", img: "/typescript.jpg" },
   { name: "Next.js", img: "/nextjs.jpg" },
   { name: "React", img: "/react.png" },
+  { name: "Tailwind", img: "/tailwind.jpg" },
 ];
 
 export const backendSkills = [

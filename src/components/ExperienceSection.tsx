@@ -6,24 +6,23 @@ export default function ExperienceSection() {
       <div className="space-y-6">
         <div>
           <h3 className="text-xl font-semibold">
-            Full-Stack Developer – ABC Corp
+            Smart Contract Security Researcher
           </h3>
-          <p className="text-sm text-gray-500">2021 - Present</p>
+          <p className="text-sm text-gray-500">May 2024 - Present</p>
           <ul className="list-disc list-inside mt-2 space-y-1">
-            <li>Developed and maintained web apps with React & Node.js</li>
             <li>
-              Implemented CI/CD pipelines to reduce deployment time by 50%
+              Found 8 high-medium security vulnerabilities in smart contract
             </li>
-            <li>Worked closely with designers to improve UI/UX</li>
+            <li>Understanding best approach in writing smart contract</li>
           </ul>
         </div>
-
         <div>
-          <h3 className="text-xl font-semibold">Freelance Developer</h3>
-          <p className="text-sm text-gray-500">2019 - 2021</p>
+          <h3 className="text-xl font-semibold">Developer Advocate ETHJKT</h3>
+          <p className="text-sm text-gray-500">July 2025 - Present</p>
           <ul className="list-disc list-inside mt-2 space-y-1">
-            <li>Built responsive websites for small businesses</li>
-            <li>Integrated payment gateways and CMS solutions</li>
+            <li>
+              Write smart contract security related documentation for ETHJKT
+            </li>
           </ul>
         </div>
       </div>
