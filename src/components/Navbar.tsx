@@ -47,7 +47,7 @@ export default function Navbar() {
 
   return (
     <nav className="bg-white shadow mb-6 w-full sticky top-0 z-50">
-      <div className="flex justify-around md:justify-center items-center md:gap-10 px-15 py-4">
+      <div className="flex justify-between md:justify-center items-center px-3 md:gap-10 py-4">
         {/* Navigation Links */}
         {navLinks.map((link) => (
           <button
