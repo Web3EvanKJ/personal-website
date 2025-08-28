@@ -22,7 +22,7 @@ export default function ExperienceSection() {
           <ul className="list-disc list-inside mt-2 space-y-1">
             <li>Designing smart contract flow for Jagantara</li>
             <li>Writing smart contract with best security approach</li>
-            <li>Applied synthetix staking algorithm</li>
+            <li>Contributing to Jagantara's front end website</li>
           </ul>
         </div>
         <div>
