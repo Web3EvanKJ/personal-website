@@ -4,6 +4,7 @@ import { AnimatePresence } from "motion/react";
 import * as motion from "motion/react-client";
 import { useEffect, useState } from "react";
 import { backendSkills, frontendSkills, toolSkills } from "@/lib/skills";
+import Image from "next/image";
 
 export default function SharedLayoutAnimation() {
   const tabs = [
@@ -80,7 +81,7 @@ export default function SharedLayoutAnimation() {
                           alignItems: "center",
                         }}
                       >
-                        <img
+                        <Image
                           src={skill.img}
                           alt={skill.name}
                           style={{
