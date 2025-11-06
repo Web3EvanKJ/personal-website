@@ -43,7 +43,7 @@ const ContactForm = () => {
 
       <button
         type="submit"
-        className="bg-green-600 text-white rounded-lg px-4 py-2 hover:bg-green-700"
+        className="bg-sky-600 text-white rounded-lg px-4 py-2 hover:bg-sky-700"
       >
         Send Message
       </button>

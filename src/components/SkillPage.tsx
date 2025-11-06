@@ -21,21 +21,21 @@ export default function SharedLayoutAnimation() {
 
   return (
     <section>
-      <h1 className="text-4xl max-w-4xl mx-8 md:mx-auto font-bold mb-4 border-b-1 py-3 text-green-600">
+      <h1 className="text-4xl max-w-4xl mx-8 md:mx-auto font-bold mb-4 border-b-1 py-3 text-sky-600">
         Skills
       </h1>
 
-      <div className="flex justify-center items-center min-h-[50vh] md:min-h-[0vh]">
+      <div className="flex justify-center items-center min-h-[20vh] md:min-h-[0vh]">
         <div>
           <div className="flex justify-center items-center m-4 mb-10 p-4 ">
-            <div className="shadow-2xl rounded-lg p-5">
+            <div className=" bg-white rounded-lg p-5">
               <div className="flex justify-around min-w-[25vw]">
                 <nav style={nav}>
                   <ul style={tabsContainer}>
                     {tabs.map((item) => (
                       <motion.li
                         key={item.label}
-                        initial={{ backgroundColor: "#eee0" }}
+                        initial={{ backgroundColor: "" }}
                         animate={{
                           backgroundColor:
                             item.label === selectedTab.label ? "#eee" : "#eee0",
@@ -48,7 +48,7 @@ export default function SharedLayoutAnimation() {
                         {hydrated && item.label === selectedTab.label ? (
                           <motion.div
                             layoutId="underline"
-                            className="absolute bottom-0 left-0 right-0 h-[2px] bg-green-500"
+                            className="absolute bottom-0 left-0 right-0 h-[2px] bg-sky-500"
                           />
                         ) : null}
                       </motion.li>
@@ -84,6 +84,8 @@ export default function SharedLayoutAnimation() {
                         <Image
                           src={skill.img}
                           alt={skill.name}
+                          width={48}
+                          height={48}
                           style={{
                             width: 48,
                             height: 48,

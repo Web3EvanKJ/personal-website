@@ -55,9 +55,9 @@ export default function Navbar() {
             onClick={() => scrollToSection(link.href)}
             className={`${
               activeSection === link.href
-                ? "text-green-600 font-bold"
+                ? "text-sky-600 font-bold"
                 : "text-gray-600"
-            } hover:text-green-600 transition-colors duration-200`}
+            } hover:text-sky-600 transition-colors duration-200`}
           >
             {link.label}
           </button>

@@ -43,7 +43,7 @@ export default function HomePage() {
                   .getElementById("profile")
                   ?.scrollIntoView({ behavior: "smooth" })
               }
-              className="mt-6 bg-green-600 text-white rounded-lg px-6 py-3 hover:bg-green-700 transition-colors duration-300"
+              className="mt-6 bg-sky-600 text-white rounded-lg px-6 py-3 hover:bg-sky-700 transition-colors duration-300"
             >
               Check My Profile
             </button>
@@ -56,8 +56,8 @@ export default function HomePage() {
             </motion.div>
 
             <MotionImage
-              src="/crayon-sinchan.jpg"
-              alt="Crayon Sinchan"
+              src="/profile.jpg"
+              alt="Profile"
               width={350}
               height={350}
               priority
@@ -80,21 +80,13 @@ export default function HomePage() {
       </section>
 
       {/* Skills Section */}
-      <section id="skills" className=" pt-15">
+      <section id="skills" className="">
         <SkillsPage />
       </section>
 
       {/* Achievement Section */}
-      <section id="achievement" className=" pt-15">
+      <section id="achievement" className="">
         <AchivementPage />
-      </section>
-
-      {/* Contact Section */}
-      <section id="contact" className=" pt-15">
-        <div className="container mx-auto max-w-4xl px-6 py-12">
-          <h1 className="text-4xl font-bold mb-6">Contact Me</h1>
-          <ContactForm />
-        </div>
       </section>
     </>
   );
