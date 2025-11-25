@@ -5,7 +5,6 @@ import { useRef } from "react";
 import ProfilePage from "@/components/ProfilePage";
 import SkillsPage from "@/components/SkillPage";
 import AchivementPage from "@/components/AchivementPage";
-import ContactForm from "@/components/ContactForm";
 
 export default function HomePage() {
   const MotionImage = motion.create(Image);
@@ -85,7 +84,7 @@ export default function HomePage() {
       </section>
 
       {/* Achievement Section */}
-      <section id="achievement" className="">
+      <section id="projects" className="">
         <AchivementPage />
       </section>
     </>
