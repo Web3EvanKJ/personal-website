@@ -13,10 +13,9 @@ export default function PortfolioSection() {
         <p className="text-sm text-gray-500">Technologies: Solidity, NextJS</p>
 
         <p>
-          Jagantara is a decentralized insurance platform that gives people a
-          fair and transparent way to protect themselves from unexpected losses.
-          Instead of relying on a traditional insurance company, users pay a
-          regular premium directly into a smart contract.
+          Developed a decentralized insurance platform. Designed the end-to-end
+          user flow and implemented smart contract functionality in Solidity for
+          secure and transparent policy management.
         </p>
 
         {/* Button linking to project */}
@@ -74,15 +73,12 @@ export default function PortfolioSection() {
         </p>
 
         <p>
-          Online Grocery Web App where users shop from the nearest store branch
-          based on their real-time location. The system displays products and
-          stock from the closest store within a service radius and notifies
-          users if they are outside the coverage area. Users must create an
-          account to make purchases, while super admins manage store admins and
-          store admins handle inventory and order processing. Orders are routed
-          to the appropriate branch and follow a full order-status flow. The app
-          also includes customizable discounts such as product-based deals,
-          vouchers, referral rewards, and free-shipping benefits.
+          Developed a location-based online grocery platform. My
+          responsibilities included building the admin dashboard for managing
+          products, stores, stocks and discounts; integrating OpenCage API for
+          forward and reverse geocoding; implementing automatic store selection
+          based on the user’s location; and using Leaflet to enable precise
+          map-based location picking within the application.
         </p>
 
         {/* Button linking to project */}
