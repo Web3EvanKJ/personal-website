@@ -8,6 +8,42 @@ export default function PortfolioSection() {
         Portfolio
       </h2>
 
+      {/* Example project */}
+      <div className="bg-white shadow-lg rounded-lg p-6 space-y-4">
+        <h3 className="text-xl font-bold">
+          E-commerce Multi Warehouse Grocify
+        </h3>
+        <p className="text-sm text-gray-500">
+          Technologies: NextJS, Tailwind, Express, PostgreSQL, Prisma
+        </p>
+
+        <p>
+          Developed a location-based online grocery platform. My
+          responsibilities included building the admin dashboard for managing
+          products, stores, stocks and discounts; integrating OpenCage API for
+          forward and reverse geocoding; implementing automatic store selection
+          based on the user’s location; and using Leaflet to enable precise
+          map-based location picking within the application.
+        </p>
+
+        {/* Button linking to project */}
+        <Link
+          href="https://grocery-app-2-frontend.vercel.app/admin/dashboard"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex items-center justify-center rounded-md bg-sky-600 px-4 py-2 text-white text-sm font-medium shadow hover:bg-sky-700 transition"
+        >
+          View Project
+        </Link>
+        <Image
+          src="/grocify.png"
+          alt="Ecommerce Multi Warehouse Grocify"
+          width={500}
+          height={300}
+          className="min-w-full"
+        />
+      </div>
+
       <div className="bg-white shadow-lg rounded-lg p-6 space-y-4">
         <h3 className="text-xl font-bold">Jagantara</h3>
         <p className="text-sm text-gray-500">Technologies: Solidity, NextJS</p>
@@ -15,7 +51,9 @@ export default function PortfolioSection() {
         <p>
           Developed a decentralized insurance platform. Designed the end-to-end
           user flow and implemented smart contract functionality in Solidity for
-          secure and transparent policy management.
+          secure and transparent policy management. Integrating safe and
+          effective algorithm like synthetix staking algorithm and following
+          solidity best practices such as pull mechanism.
         </p>
 
         {/* Button linking to project */}
@@ -58,41 +96,6 @@ export default function PortfolioSection() {
         <Image
           src="/nave-bank-project.png"
           alt="Banking Platform Nave"
-          width={500}
-          height={300}
-          className="min-w-full"
-        />
-      </div>
-      {/* Example project */}
-      <div className="bg-white shadow-lg rounded-lg p-6 space-y-4">
-        <h3 className="text-xl font-bold">
-          E-commerce Multi Warehouse Grocify
-        </h3>
-        <p className="text-sm text-gray-500">
-          Technologies: NextJS, Tailwind, Express, PostgreSQL, Prisma
-        </p>
-
-        <p>
-          Developed a location-based online grocery platform. My
-          responsibilities included building the admin dashboard for managing
-          products, stores, stocks and discounts; integrating OpenCage API for
-          forward and reverse geocoding; implementing automatic store selection
-          based on the user’s location; and using Leaflet to enable precise
-          map-based location picking within the application.
-        </p>
-
-        {/* Button linking to project */}
-        <Link
-          href="https://grocery-app-2-frontend.vercel.app/admin/dashboard"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-flex items-center justify-center rounded-md bg-sky-600 px-4 py-2 text-white text-sm font-medium shadow hover:bg-sky-700 transition"
-        >
-          View Project
-        </Link>
-        <Image
-          src="/grocify.png"
-          alt="Ecommerce Multi Warehouse Grocify"
           width={500}
           height={300}
           className="min-w-full"
