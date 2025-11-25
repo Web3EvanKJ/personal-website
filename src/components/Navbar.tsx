@@ -10,7 +10,6 @@ export default function Navbar() {
     { href: "profile", label: "Profile" },
     { href: "skills", label: "Skills" },
     { href: "achievement", label: "Achievement" },
-    { href: "contact", label: "Contact" },
   ];
 
   // Handle smooth scrolling
