@@ -74,17 +74,17 @@ export default function HomePage() {
       </section>
 
       {/* Profile Section */}
-      <section id="profile" className=" pt-15">
+      <section id="profile" className="pt-15">
         <ProfilePage />
       </section>
 
       {/* Skills Section */}
-      <section id="skills" className="">
+      <section id="skills" className="pt-15">
         <SkillsPage />
       </section>
 
       {/* Achievement Section */}
-      <section id="projects" className="">
+      <section id="portfolio" className="pt-15">
         <AchivementPage />
       </section>
     </>
